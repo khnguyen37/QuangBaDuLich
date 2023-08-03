@@ -1,0 +1,160 @@
+.header{
+    height: var(--header-height);
+    background-image: url(../img/binh-lieu.jpg);
+    
+}
+.header__navbar{
+    display: flex;    
+    justify-content: space-between;
+
+}
+.header__navbar-list{
+    list-style: none;
+    padding-left: 0;    
+}
+.header__navbar-item{
+    margin: 0 8px;
+    position: relative;
+}
+.header__navbar-item,
+.header__navbar-item--link
+{
+    display: inline-block;
+    font-size: 1.3rem;
+    color:var(--white-color);
+    text-decoration: none;
+    font-weight: 300;
+}
+.header__navbar-item--strong{
+    font-weight:300;
+}
+.header__navbar-item--sep::after{
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid #0a0a0a;
+    height: 12px;
+    right: -9px;
+    top:50%;
+    transform: translateY(-50%);
+}
+.header__navbar-item:hover,
+.header__navbar-item--link:hover{
+    color:rgba(255,255,255,0.7);
+}
+.header__navbar-icon{
+    margin: 0 6px;
+} 
+.header-with-search{
+    height: var(--header-with-search-height);
+    display: flex;
+}
+.header__logo{
+    width:100px;
+}
+.header__logo--img{
+    width: 40px;
+    color:var(--white-color);
+    margin-right: 30px;
+    
+}
+.header__search{
+    flex: 1;
+    height: 40px;
+    background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+}   
+.header__cart-icon{
+    font-size: 2.4rem;
+    color:var(--white-color);
+    margin-left: 20px;
+}
+.header__search-input{
+    flex: 1;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;  
+    color: var(--black-color);
+}
+
+.header__search-select{
+    border-left: 1px solid#ccc;
+    padding-left: 16px;
+    position: relative;
+}
+
+
+.header__search-btn{
+        background-color: #5cc8db;
+        border: none;
+        height: 34px;
+        width: 50px;
+        border-radius: 3px;
+        margin-right:3px;
+        outline: none;
+}
+.header__search-btn:hover{
+    cursor:pointer;
+    background-color:#e6b2b2;
+}
+.header__search-btn-icon{
+        font-size: 1.8  rem;
+        color: var(--white-color);
+}
+.header__search-option{
+    position: absolute;
+    right: 0;
+    top: 10 0%;
+    width: 130px;
+    list-style: none;
+    box-shadow: 0 2px 2px #e6b2b2;
+    padding-left: 0;
+    border-radius: 3px;
+    /*display: none;*/
+}
+.header__search-select:hover .header__search-option{
+    display: block;
+}
+.header__search-option::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 10px;
+    position:  absolute;
+    top: -10px;
+    left:0;
+}
+
+.header__search-option-item{
+    background-color: var(--white-color);
+    border-radius: 3px;
+    padding: 8px 8px;
+    list-style: none;
+ 
+
+}
+.header__search-option-item:first-child{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.header__search-option-item:last-child{
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.header__search-option-item span{
+    font-size: 1.4rem;
+    color: var(--black-color);
+
+}
+.header__search-option-item:hover{
+    background-color: #fafafa;
+}
+
+
+
+
+
+

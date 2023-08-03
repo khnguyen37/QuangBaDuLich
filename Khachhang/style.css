@@ -1,0 +1,48 @@
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}body {
+    font-family: Arial, sans-serif;
+    background-color: #6ad0e0;
+    padding: 100px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.LoginAndRegister-form {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.LoginAndRegister-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.LoginAndRegister-form input[type="text"],
+.LoginAndRegister-form input[type="email"],
+.LoginAndRegister-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+#tes{
+    font-family: Arial, sans-serif;
+    background-color: #6ad0e0;
+    padding: 100px;
+  
+  }
+
+
+
+
+
